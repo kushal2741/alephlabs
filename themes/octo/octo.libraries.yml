@@ -1,0 +1,22 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+        vendor/bootstrap/css/bootstrap.min.css: {}
+        vendor/bootstrap/css/bootstrap-theme.min.css: {}
+        vendor/font-awesome/css/font-awesome.min.css: {}
+        vendor/flexslider/flexslider.css: {}
+        vendor/owl-carousel/owl.carousel.css: {}
+        vendor/owl-carousel/owl.theme.css: {}
+        css/styles.css: {}
+  js:
+    vendor/jquery/jquery.min.js: {}
+    vendor/bootstrap/js/bootstrap.min.js: {}
+    vendor/flexslider/jquery.flexslider-min.js: {}
+    vendor/owl-carousel/owl.carousel.min.js: {}
+    vendor/jquery-scrollTo/jquery.scrollTo.min.js: {}
+    vendor/jquery-gmap/jquery.gmap.min.js: {}
+    js/octo.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
